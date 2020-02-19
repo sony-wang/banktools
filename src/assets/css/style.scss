@@ -1,3 +1,35 @@
-h3{
-    
+//背景色變數
+$blue:#11b2d6;
+$red:#ef7171;
+$green:#8fc256;
+$yellow:#dfc75f;
+
+*{
+    font-family: Microsoft JhengHei;
 }
+// Flex
+.dflex{
+    display: flex;
+}
+.flex_row{
+    @extend .dflex;
+    flex-direction: row;
+}
+.flex_col{
+    @extend .dflex;
+    flex-direction: column;
+}
+.flex_wrap{
+    flex-wrap: wrap;
+}
+
+
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+  }
+  .box {
+    @include border-radius(10px);
+  }
