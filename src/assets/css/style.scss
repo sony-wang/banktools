@@ -4,10 +4,22 @@ $red:#ef7171;
 $green:#8fc256;
 $yellow:#dfc75f;
 
+
 *{
     font-family: Microsoft JhengHei;
 }
-// Flex
+@mixin border-radius($radius) {
+    -webkit-border-radius: $radius;
+    -moz-border-radius: $radius;
+    -ms-border-radius: $radius;
+    border-radius: $radius;
+  }
+.wrapper {
+    background: #f1f4f6;
+    min-height: 100vh;
+}
+ 
+// Flex 自訂用
 .dflex{
     display: flex;
 }
@@ -22,14 +34,56 @@ $yellow:#dfc75f;
 .flex_wrap{
     flex-wrap: wrap;
 }
+.list_wrapper{
+    a{  
+        display: block;
+        color: #fff;
+        margin: .5rem auto;
+        border: #fff solid 2px;
+        padding: .5rem 0;
+        font-size: 18px;
+        text-align: center;
+        max-width: 300px;
+        @include border-radius(15px);
+        box-shadow: 0px 1px 2px rgba(153, 153, 153, 0.904);
+    }
+}
+.bg_blue{
+    background: $blue;
+    &:hover{
+        background: #fff;
+        color: $blue;
+    }
+}
+.bg_red{
+    background: $red;
+    &:hover{
+        background: #fff;
+        color: $red;
+    }
+}
+.bg_green{
+    background: $green;
+    &:hover{
+        background: #fff;
+        color: $green;
+    }
+}
+.bg_yellow{
+    background: $yellow;
+    &:hover{
+        background: #fff;
+        color: $yellow;
+    }
+}
+.bg_white{
+    background: #fff;
+}
+
+//內距
+.pd20{
+    padding: 20px;
+}
 
 
-@mixin border-radius($radius) {
-    -webkit-border-radius: $radius;
-    -moz-border-radius: $radius;
-    -ms-border-radius: $radius;
-    border-radius: $radius;
-  }
-  .box {
-    @include border-radius(10px);
-  }
+
