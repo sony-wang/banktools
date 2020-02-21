@@ -14,11 +14,7 @@ $yellow:#dfc75f;
     -ms-border-radius: $radius;
     border-radius: $radius;
   }
-.wrapper {
-    background: #f1f4f6;
-    min-height: 100vh;
-}
- 
+
 // Flex 自訂用
 .dflex{
     display: flex;
@@ -86,4 +82,13 @@ $yellow:#dfc75f;
 }
 
 
+//線框
+.bd1{
+    border: 1px solid #eee;
+}
+
+//陰影
+.shadow{
+    box-shadow: #888 0px 0px 5px;
+}
 

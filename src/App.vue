@@ -4,11 +4,12 @@
       <!-- <router-link to="/">Home</router-link> | -->
       <!-- <router-link to="/about">About</router-link> -->
     <!-- </div> -->
-    <router-view />
+    <router-view title="下载工具站"/>
   </div>
 </template>
 
 <style lang="scss">
+@import url('/assets/style.scss');
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

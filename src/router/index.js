@@ -1,15 +1,15 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 // import Home from "../views/Home.vue";
-import Tools from '@/components/Tools' //首页
+import Index from '@/components/Index' //首页
 
 Vue.use(VueRouter);
 
 const routes = [
   {
     path: "/",
-    name: "Tools",
-    component: Tools
+    name: "Index",
+    component: Index
   },
   {
     path: "/about",
