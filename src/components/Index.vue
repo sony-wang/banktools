@@ -36,6 +36,9 @@ export default {
   data(){
     return{
     }
+  },
+  mounted () {
+    document.title = this.$route.meta.title
   }
 }
 </script>

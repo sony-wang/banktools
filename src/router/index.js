@@ -7,9 +7,13 @@ Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/",
+    path: "/tools_cn",
+    // path: "/",
     name: "Index",
-    component: Index
+    component: Index,
+    meta:{
+      title:'下载工具网',
+    }
   },
   {
     path: "/about",
