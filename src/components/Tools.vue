@@ -55,7 +55,7 @@ export default {
         {type:'软件',name:'云闪付-apk',link:'com.unionpay_v7.0.1.apk',class:'bg_green'},
         {type:'QQ通',name:'QQ通-apk',link:'javascript:;',class:'bg_green'},
         {type:'代收',name:'云闪付小助手-apk',link:'云闪付小助手2.4_v2.4.0.apk',class:'bg_green'},
-        {type:'代付',name:'工行代付小助手-apk',link:'工行代付小助手1.1_v1.1.0.apk',class:'bg_green'},
+        {type:'代付',name:'工行代付小助手-apk',link:'工行代付小助手1.2_v1.2.0.apk',class:'bg_green'},
         {type:'代付',name:'农行代付小助手-apk',link:'农行代付小助手3.2_v3.2.0.apk',class:'bg_green'},
         {type:'代付',name:'建行代付小助手-apk',link:'建行代付小助手1.2_v1.2.0.apk',class:'bg_green'},
         {type:'微信',name:'微信小助手-apk',link:'微信小助手2.2_v2.2.0.apk',class:'bg_green'},
@@ -67,15 +67,17 @@ export default {
         {type:'收支',name:'交通收支小助手-apk',link:'交通收支小助手1.2_v1.2.0.apk',class:'bg_yellow'},
         {type:'收支',name:'建行收支小助手-apk',link:'建行收支小助手1.2_v1.2.0.apk',class:'bg_yellow'},
         {type:'收支',name:'浦发收支小助手-apk',link:'浦发收支小助手1.2_v1.2.0.apk',class:'bg_yellow'},
+        {type:'收支',name:'农行收支小助手-apk',link:'农行收支小助手1.0_v1.0.0.apk',class:'bg_yellow'},
+        {type:'收付',name:'中國收付小助手-apk',link:'中國收付小助手1.0_v1.0.0.apk',class:'bg_pink'},
       ],
       input:{
         type:"全部",
         name:""
       },
       qqton:{
-        ts:'http://cf2m.pptest.xyz/uploads/document/app/app-release1.1.2_test.apk',
-        lt:'http://47.75.4.142/uploads/document/app/app-release1.1.2_lt.apk',
-        qx:'http://qxpay.xyz/uploads/document/app/app-release1.1.2_qx.apk',
+        ts:'http://cf2m.pptest.xyz/uploads/document/app/app-release1.1.28_test.apk',
+        lt:'http://47.75.4.142/uploads/document/app/app-release1.1.28_lt.apk',
+        qx:'http://qxpay.xyz/uploads/document/app/app-release1.1.28_qx.apk',
       }
      /*  srcURL:{
         downloadroot : 'https://cf2.pptest.xyz/downloads/china/',

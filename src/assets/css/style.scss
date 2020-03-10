@@ -3,6 +3,7 @@ $blue:#11b2d6;
 $red:#ef7171;
 $green:#8fc256;
 $yellow:#dfc75f;
+$pink:#ff7bb8;
 
 
 *{
@@ -70,6 +71,13 @@ $yellow:#dfc75f;
     &:hover{
         background: #fff;
         color: $yellow;
+    }
+}
+.bg_pink{
+    background: $pink;
+    &:hover{
+        background: #fff;
+        color: $pink;
     }
 }
 .bg_white{
