@@ -21,13 +21,15 @@ export default {
     data(){
         return{
             info:[
-                {date:'2020/03/03',title:'工行代付小助手',version:'[1.2]',status:'new'},
-                {date:'2020/03/03',title:'中国收付小助手',version:'[1.0]',status:'new'},
+                {date:'2020/04/15',title:'网银工具',version:'[5.5]',status:'new'},
+                {date:'2020/04/14',title:'农行代付小助手',version:'[3.3]',status:'new'},
+                {date:'2020/04/06',title:'收付小助手',version:'[2.0]',status:''},
+                {date:'2020/03/24',title:'工行收支小助手',version:'[2.1]',status:''},
+                {date:'2020/03/03',title:'工行代付小助手',version:'[1.2]',status:''},
+                {date:'2020/03/03',title:'中国收付小助手',version:'[1.0]',status:''},
                 {date:'2020/02/27',title:'农行收支小助手',version:'[1.0]',status:''},
-                {date:'2020/02/26',title:'网银工具',version:'[5.0]',status:''},
                 {date:'2020/02/12',title:'建行代付小助手',version:'[1.2]',status:''},
-                {date:'2020/02/12',title:'农行代付小助手',version:'[3.2]',status:''},
-                {date:'2020/02/12',title:'工行代付小助手',version:'1.1]',status:''},
+                {date:'2020/02/12',title:'工行代付小助手',version:'[1.1]',status:''},
                 {date:'2020/02/12',title:'云闪付小助手',version:'[2.4]',status:''},
                 {date:'2020/02/12',title:'微信小助手',version:'[2.2]',status:''},
                 {date:'2020/02/12',title:'微信店员通',version:'[2.2]',status:''},
