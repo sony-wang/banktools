@@ -27,13 +27,13 @@
 </template>
 
 <script>
-const downloadroot = 'https://cf2.pptest.xyz/downloads/china/'//中國載跟目錄
-const banktool = 'https://cf2.pptest.xyz/downloads/china/banktool/'//網銀工具
-const dai_fu = 'https://cf2.pptest.xyz/downloads/china/dai_fu/'//代付款
-const dai_shou = 'https://cf2.pptest.xyz/downloads/china/dai_shou/'//代收款
-const shou_zhi = 'https://cf2.pptest.xyz/downloads/china/shou_zhi/'//收支
-const wei_xin = 'https://cf2.pptest.xyz/downloads/china/wei_xin/'//微信
-const shou_fu = 'https://cf2.pptest.xyz/downloads/china/shou_fu/'//收付
+const downloadroot = 'https://cf3.pptest.xyz/downloads/china/'//中國載跟目錄
+const banktool = 'https://cf3.pptest.xyz/downloads/china/banktool/'//網銀工具
+const dai_fu = 'https://cf3.pptest.xyz/downloads/china/dai_fu/'//代付款
+const dai_shou = 'https://cf3.pptest.xyz/downloads/china/dai_shou/'//代收款
+const shou_zhi = 'https://cf3.pptest.xyz/downloads/china/shou_zhi/'//收支
+const wei_xin = 'https://cf3.pptest.xyz/downloads/china/wei_xin/'//微信
+const shou_fu = 'https://cf3.pptest.xyz/downloads/china/shou_fu/'//收付
 
 // const qq_ts = 'http://cf2m.pptest.xyz/uploads/document/app/app-release1.1.2_test.apk'
 // const qq_lt = 'http://47.75.4.142/uploads/document/app/app-release1.1.2_lt.apk'
@@ -50,28 +50,29 @@ export default {
     return{
       user:'ts',
       list:[
-        {type:'网银工具',name:'网银工具',link:'LongPay_v5.5.rar',class:'bg_blue'},
+        {type:'网银工具',name:'网银工具',link:'LongPay_v6.2.rar',class:'bg_blue'},
         {type:'文件',name:'教学文件-pdf',link:'unionpay_tools_document_v1.0.0.pdf',class:'bg_red'},
         {type:'文件',name:'支转支信息获取方法-pdf',link:'z2z_method.pdf',class:'bg_red'},
         {type:'软件',name:'虚拟大师-apk',link:'vmos100117_2.apk',class:'bg_green'},
         {type:'软件',name:'云闪付-apk',link:'com.unionpay_v7.0.1.apk',class:'bg_green'},
         {type:'QQ通',name:'QQ通-apk',link:'javascript:;',class:'bg_green'},
         {type:'代收',name:'云闪付小助手-apk',link:'云闪付小助手2.4_v2.4.0.apk',class:'bg_green'},
-        {type:'代付',name:'工行代付小助手-apk',link:'工行代付小助手1.2_v1.2.0.apk',class:'bg_green'},
-        {type:'代付',name:'农行代付小助手-apk',link:'农行代付小助手3.3_v3.3.0.apk',class:'bg_green'},
-        {type:'代付',name:'建行代付小助手-apk',link:'建行代付小助手1.2_v1.2.0.apk',class:'bg_green'},
+        // {type:'代付',name:'工行代付小助手-apk',link:'工行代付小助手1.2_v1.2.0.apk',class:'bg_green'},
+        // {type:'代付',name:'农行代付小助手-apk',link:'农行代付小助手3.3_v3.3.0.apk',class:'bg_green'},
+        // {type:'代付',name:'建行代付小助手-apk',link:'建行代付小助手1.2_v1.2.0.apk',class:'bg_green'},
         {type:'微信',name:'微信小助手-apk',link:'微信小助手2.2_v2.2.0.apk',class:'bg_green'},
         {type:'微信',name:'微信店员通-apk',link:'微信店员通2.2_v2.2.0.apk',class:'bg_green'},
-        {type:'收支',name:'工行收支小助手-apk',link:'工行收支小助手2.1_v2.1.0.apk',class:'bg_yellow'},
-        {type:'收支',name:'中國收支小助手-apk',link:'中國收支小助手1.2_v1.2.0.apk',class:'bg_yellow'},
-        {type:'收支',name:'平安收支小助手-apk',link:'平安收支小助手1.2_v1.2.0.apk',class:'bg_yellow'},
-        {type:'收支',name:'民生收支小助手-apk',link:'民生收支小助手1.2_v1.2.0.apk',class:'bg_yellow'},
-        {type:'收支',name:'交通收支小助手-apk',link:'交通收支小助手1.2_v1.2.0.apk',class:'bg_yellow'},
-        {type:'收支',name:'建行收支小助手-apk',link:'建行收支小助手1.2_v1.2.0.apk',class:'bg_yellow'},
-        {type:'收支',name:'浦发收支小助手-apk',link:'浦发收支小助手1.2_v1.2.0.apk',class:'bg_yellow'},
-        {type:'收支',name:'农行收支小助手-apk',link:'农行收支小助手1.0_v1.0.0.apk',class:'bg_yellow'},
-        {type:'收付',name:'中國收付小助手-apk',link:'中國收付小助手1.0_v1.0.0.apk',class:'bg_pink'},
-        {type:'收付',name:'收付小助手-apk',link:'收付小助手2.0_v2.0.0.apk',class:'bg_pink'},
+        // {type:'收支',name:'工行收支小助手-apk',link:'工行收支小助手2.2_v2.2.0.apk',class:'bg_yellow'},
+        // {type:'收支',name:'中國收支小助手-apk',link:'中國收支小助手1.2_v1.2.0.apk',class:'bg_yellow'},
+        // {type:'收支',name:'平安收支小助手-apk',link:'平安收支小助手1.2_v1.2.0.apk',class:'bg_yellow'},
+        // {type:'收支',name:'民生收支小助手-apk',link:'民生收支小助手1.2_v1.2.0.apk',class:'bg_yellow'},
+        // {type:'收支',name:'交通收支小助手-apk',link:'交通收支小助手1.2_v1.2.0.apk',class:'bg_yellow'},
+        // {type:'收支',name:'建行收支小助手-apk',link:'建行收支小助手1.2_v1.2.0.apk',class:'bg_yellow'},
+        // {type:'收支',name:'浦发收支小助手-apk',link:'浦发收支小助手1.2_v1.2.0.apk',class:'bg_yellow'},
+        // {type:'收支',name:'农行收支小助手-apk',link:'农行收支小助手1.1_v1.1.0.apk',class:'bg_yellow'},
+        // {type:'收付',name:'中國收付小助手-apk',link:'中國收付小助手1.1_v1.1.0.apk',class:'bg_pink'},
+        // {type:'收付',name:'收付小助手-apk',link:'收付小助手2.0_v2.0.0.apk',class:'bg_pink'},
+        {type:'收付',name:'中國收付-apk',link:'中國收付3.1.apk',class:'bg_pink'},
       ],
       input:{
         type:"全部",
